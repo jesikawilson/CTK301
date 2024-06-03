@@ -1,0 +1,44 @@
+#specialdiv {
+    background-color: #ffedd3
+}
+
+.specialspan{
+    color: red
+}
+
+.specialh1 {
+    color: darkred;
+    background-color: #df9f9f;
+}
+
+.specialh2 {
+    color: #d9b38c;
+    background-color: #331a00;
+}
+
+.specialh3 {
+    color: #85e085;
+    background-color: #003300;
+}
+
+.specialp {
+    color: #001f4d;
+    background-color: #99c2ff;
+}
+
+.specialul {
+    color: #001f4d;
+    background-color: #99c2ff;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
