@@ -1,0 +1,117 @@
+body {
+    background-image: url(a32.png);
+}
+
+#wrapper {
+    border: 2px solid black;
+    background-color: white;
+    padding: 1em;
+    width: 700px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    
+}
+
+main {
+    grid-column: span 9;
+}
+
+h1 {
+    border: black;
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+    font-weight: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    grid-column: span 12;
+    font-size: 24px;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    border-bottom: 3px solid black;
+    margin: 10px;
+    padding-bottom: 5px;
+    font-size: 19px;
+}
+
+.floatimg {
+    float: left;
+    width: 320px;
+    padding: 5px;
+    margin: 5px 10px;
+    border: 3px solid black;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    grid-column: span 3;
+}
+
+nav li {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    list-style-type: none;
+    margin: 10px 0px;
+    width: 170px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: 13px;
+    display: block; /*allows for hover color to go over entire button*/
+    padding: 10px; /*remember to move padding from nav li to nav li a for hover color*/
+}
+
+
+nav li a:hover {
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+}
+
+.justify {
+    font-family: Georgia, Arial, sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 12.5px;
+}
+
+a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.small {
+    font-size: 13px;
+    line-height: 13px;
+}
+
+footer {
+    border: 3px solid black;
+    background-color: red;
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    grid-column: span 12;
+    margin: 5px -18px -18px -18px;
+    font-size: 12.5px;
+}
+
