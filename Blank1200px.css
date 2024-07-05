@@ -1,0 +1,68 @@
+body {
+  background-color: #FF7A00
+
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  padding: 24px;
+  background-color: #FCF7EB;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+main {
+  padding: 0px 24px;
+border-left: 74px solid #FFD600;
+border-right: 74px solid #FFD600;
+grid-column: span 12;
+outline-offset: -10px;
+outline-style: dashed;
+}
+
+
+header {
+  grid-column: span 10;
+  background-color: #1F7FC5;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 50px;
+  line-height: 5px;
+  margin: 0px 0px 24px 0px;
+}
+
+.header1 {
+  position: relative; right: 120px;
+}
+
+.header2{
+  position: relative; left: 120px;
+}
+
+
+
+.pfp {
+  grid-column: span 4;
+  margin: 24px 0px 0px 0px;
+}
+
+.aboutme {
+  grid-column: span 6;
+}
+
+.contact{ 
+grid-column: span 4;
+}
+
+.clouds.png{
+  grid-column: span 10;
+}
+
+.footer{
+  grid-column: span 12;
+  text-align: center;
+}
+
